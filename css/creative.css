@@ -2,6 +2,7 @@
  * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * main colors blueMoon: #40eef0, blueLotus: #58d7d8  , pink:#f0406a, hoverPink: #f04088
  */
 
 html,
@@ -16,12 +17,16 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #f0406a;
+    border-color: #58d7d8;
     border-width: 3px;
 }
 
 hr.light {
     border-color: #fff;
+}
+
+hr.pink {
+    border-color: #f0406a;
 }
 
 a {
@@ -57,7 +62,7 @@ p {
 
 .bg-dark {
     color: #fff;
-    background-color: #40eef0;
+    background-color: #58d7d8;
 }
 
 .text-faded {
@@ -94,7 +99,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #40eef0;
+    color: #f04088;
 }
 
 .navbar-default .nav > li>a,
@@ -178,7 +183,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header5.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -385,9 +390,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #f0406a;
+    border-color: #40eef0;
     color: #fff;
-    background-color: #f0406a;
+    background-color: #58d7d8;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
